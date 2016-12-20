@@ -1,0 +1,435 @@
+@font-face {
+	font-family: firstFont;
+	src: url(Fonts/Relic-Regular.otf);
+}
+
+@font-face {
+	font-family: secondFont;
+	src: url(Fonts/HarimauDua.otf);
+}
+
+@font-face {
+	font-family: thirdFont;
+	src: url(Fonts/Esphimere.otf);
+}
+
+@media screen and (max-width: 1000px)
+{
+	video {
+		height: 150px;
+		width: 150px;
+	}
+	#logo{
+		height:100px;
+		width:150px;
+	}
+	
+	textarea{
+		width:200px;
+	}
+	
+	.description{
+		margin-top: 220px;
+	}
+}
+
+video {
+	margin: 10px;
+}	
+
+button{
+	border: 3px solid white;
+	background-color: white;
+	font-family: secondFont;
+	font-size: 15px;
+	margin: 10px 3px;
+	color: black;
+}
+
+a{
+	border: 3px solid red;
+	background-color: white;
+	font-family: secondFont;
+	font-size: 15px;
+	margin: 10px 3px;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	float: right;
+}
+
+#read-more{
+	border: 3px solid black;
+	background-color: white;
+	font-family: secondFont;
+	font-size: 15px;
+	margin: 10px 3px;
+	margin: 0px 30px;
+}
+
+select{
+	border: 3px solid white;
+	font-family: secondFont;
+	font-size: 15px;
+	margin: 10px 3px;
+	color: black;
+	background-color: white;
+}
+
+div{
+	color: black;
+	margin: 10px;
+	font-family: firstFont;
+	font-size: 20px;
+	background-color: transparent;
+}
+
+p{
+	font-family: secondFont;
+	font-size: 15px;
+	color: black;
+}
+
+summary{
+	margin: 0px 10px;
+}
+
+.MS_MOVIE_PANEL{
+	border: 3px solid white;
+	padding: 50px 0px;
+}
+
+#MS_MOVIE_CH{
+	padding-bottom: 75px;
+}
+
+#MS_MOVIE_RC{
+	padding-bottom: 100px;
+}
+
+#MS_MOVIE_AC{
+	padding-bottom: 100px;
+}
+
+img{
+	float: top;
+	margin-right: 3px;
+}
+
+.details {
+	display: none;
+}
+
+
+.contact{
+    background-color: white;
+	border: 1px solid black;
+}
+input{
+    background-color: transparent;
+	border: 2px solid red;
+}
+
+.bookeas th{
+	width:50%;
+}
+
+.bookeas td{
+	width:50%;
+}
+
+.bookdas td {
+	width: 30%;
+}
+
+.addmin{
+	background-color: transparent;
+	border: 2px solid black;
+	margin: 5px 0px;
+}
+
+.description th{
+	width:10%;
+}
+
+.description td{
+	width:90%;
+}
+
+textarea{
+        resize: none;
+}
+
+#logo{
+    display: inline-block;
+    margin: 20px;
+}
+
+.para{
+	margin:0px;
+	font-size: 20px;
+}
+
+.bookpage{
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ADADAD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 10px;
+}
+
+.pic{
+	position: relative;
+	float:left;
+	border: 2px solid black;
+	margin: 0px 10px;
+	margin-bottom: 10px;
+}
+
+#sub {
+	font-family: none;
+	text-align: center;
+}
+
+.schbut {
+	position: relative;
+	font-size: 20px;
+	float: left;
+	color: white;
+	border: 1px solid black;
+	background-color: black;
+	padding: 5px;
+}
+
+.schbut:hover {
+	background-color: white;
+	color: black;
+}
+
+#antsch{
+	position: relative;
+	display: none;
+	border: none;
+	left: 19%;
+}
+
+#antsch td {
+	width: 100px;
+}
+
+#timsch{
+	position: relative;
+	display: none;
+	border: none;
+	left: 19%;
+}
+
+#timsch td {
+	width: 100px;
+}
+
+#minsch{
+	position: relative;
+	display: none;
+	border: none;
+	left: 19%;
+}
+
+#minsch td {
+	width: 100px;
+}
+
+#trainsch{
+	position: relative;
+	display: none;
+	border: none;
+	left: 19%;
+}
+
+#trainsch td {
+	width: 100px;
+}
+
+table, th, td {
+	position: relative;
+	padding: 5px;
+	text-align: left;
+    border: 3px solid black;
+    border-collapse: collapse;
+	margin: 0px auto;
+}
+
+body{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-image: url("Images/bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+header{
+  border-radius: 5px;
+  background-color: #ADADAD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+nav{
+  border-radius: 5px;
+  background-color: #ADADAD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+input#shiny {
+display: inline-block;
+padding: 4px 20px;
+background:#ffae00;
+background: -webkit-linear-gradient(top, #ffae00, #d67600);
+background: -moz-linear-gradient(top, #ffae00, #d67600);
+background: -o-linear-gradient(top, #ffae00, #d67600);
+background: linear-gradient(top, #ffae00, #d67600);
+border:2px outset #dad9d8;
+font-family:thirdFont;
+font-size:1.1em;
+letter-spacing:0.05em;
+text-transform:uppercase;
+color:#fff;
+text-shadow: 0px 1px 10px #000;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+-webkit-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+-moz-box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+box-shadow: rgba(0, 0, 0, .55) 0 1px 6px;
+}
+input#shiny:hover, input#shiny:focus {
+	border:2px solid #dad9d8;
+}
+
+.movies {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #ADADAD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 10px;
+  font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+}
+
+
+.news1{
+  background-color: #E6B800;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 90%;
+  margin-bottom: 10px;
+}
+
+.news2{
+  background-color: #FFFFFF;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.news1#newslast{
+  margin-bottom: 0px;
+}
+
+.movies1{
+  display: inline-block;
+  background-color: #E6B800;
+  border-radius: 5px;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  width: 45%;
+}
+
+footer{
+  border-radius: 5px;
+  background-color: #ADADAD;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+li{
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+ul{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 0px;
+  line-height: 20px;
+}
+
+h1{
+	font-family: firstFont;
+        text-align: left;
+        font-size: 36px;
+	text-align: center;
+}
+
+.book{
+	font-family: none;
+	font-size: 25px;
+	clear:both;
+	background-color: black;
+	border: 1px solid black;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+.book:hover {
+	background-color: white;
+	color: black;
+}
+
+.navi {
+	font-size: 25px;
+	text-decoration: none;
+	color: yellow;
+}
+
+.navi:hover{
+  text-decoration: underline;
+  color: red;
+  font-weight: bold/normal;
+   /*make sure to change at least one thing from your a tag definition*/
+}

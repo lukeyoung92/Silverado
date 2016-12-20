@@ -1,0 +1,15 @@
+First Name: Luke
+Last Name: Young
+Email: lukeyoung92@gmail.com
+Phone No.:0409794095
+
+Screening: 0
+Movie: AC
+Day: Wednesday
+Time: 9PM
+Screening Cost: 55
+Adult No.: 1
+Concession No.: 1
+FAdult No.: 1
+
+Grand Total: 55

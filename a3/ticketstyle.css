@@ -1,0 +1,33 @@
+<style>
+  @media screen and (max-width: 1000px)
+  {
+    #logo{
+      height:100px;
+      width:150px;
+    }
+    
+    textarea{
+      width:200px;
+    }
+    
+    .description{
+      margin-top: 220px;
+    }
+  }
+  div {
+    width: 50%;
+    padding: 25px;
+    border: 1px solid black;
+  }
+  h1{
+    display: inline;
+  }
+  .left{
+    position: relative;
+    left: 0px;
+  }
+  .right{
+    position: relative;
+    right: 0px;
+  }
+  </style>
